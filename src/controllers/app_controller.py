@@ -6,3 +6,4 @@ class AppController(object):
             manager = MovieManager()
         except Exception as e:
             print("minor error :)")
+            print(str(e))
